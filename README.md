@@ -1,6 +1,6 @@
 # ARM_Template
 ## 0. Use Bash/PowerShell to create a <MyResourceGroup> resource group.
-             az group create -l eastus -n MyResourceGroup
+      az group create -l eastus -n MyResourceGroup
 
 
 
@@ -13,6 +13,6 @@
 
 
 
-##3. Deploy your ARM template via Azure Portal.
+## 3. Deploy your ARM template via Azure Portal.
 
     az deployment group create --resource-group MyResourceGroup  --template-file storage-account-with-arm.json
