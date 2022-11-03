@@ -13,6 +13,6 @@
 
 
 
-## 3. Deploy your ARM template via Azure Portal.
+## 3. Deploy your ARM template via Azure CLI.
 
     az deployment group create --resource-group MyResourceGroup  --template-file storage-account-with-arm.json
